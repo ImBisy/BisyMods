@@ -598,7 +598,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "automodpack/automodpack-client.json"
-hash = "13b9d1eed40b46efbf62d1111f199681fab22cd5b7eebb836a8edfeb9e56c017"
+hash = "0b95a5eac57f598ba89bdb204216bf7bda5ccdf5dd39c64389ebda4b03c711cf"
 
 [[files]]
 file = "automodpack/automodpack-server.json"
