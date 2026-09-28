@@ -1,0 +1,13 @@
+name = "AntiFreecam-evolved"
+filename = "antifreecam-evolved-1.2.0+mc26.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JMNKy9uH/versions/WcvYYmLI/antifreecam-evolved-1.2.0%2Bmc26.2.jar"
+hash-format = "sha512"
+hash = "39d1cbccf6cbae49efba271e399f6e8ff275bd3443e1bb31239cdacde23ed721c679c708683b96d952b408ec63d949d305e072ee659d6d6c2608374ea9860d61"
+
+[update]
+[update.modrinth]
+mod-id = "JMNKy9uH"
+version = "WcvYYmLI"

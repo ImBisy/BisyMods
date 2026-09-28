@@ -1,0 +1,624 @@
+{
+  "globalArm": {
+    "right": {
+      "scale": 0.6952335,
+      "offX": 0.066147804,
+      "offY": 0.09727621,
+      "offZ": -0.8482491,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "pivotX": 0.0,
+      "pivotY": 0.0,
+      "pivotZ": 0.0
+    },
+    "left": {
+      "scale": 0.6952335,
+      "offX": -0.066147804,
+      "offY": 0.09727621,
+      "offZ": -0.618677,
+      "rotX": 0.0,
+      "rotY": -0.0,
+      "rotZ": -0.0,
+      "pivotX": 0.0,
+      "pivotY": 0.0,
+      "pivotZ": 0.0
+    }
+  },
+  "itemSpecific": {
+    "minecraft:iron_chestplate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:redstone_torch": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:iron_leggings": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:light_blue_banner": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:magenta_banner": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:redstone": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:cherry_button": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:wheat_seeds": {
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": -47.0,
+          "rotY": -6.0,
+          "rotZ": -17.0,
+          "pivotX": -0.14999998,
+          "pivotY": 0.11999998,
+          "pivotZ": 0.049999997
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:bamboo_pressure_plate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:stone_pressure_plate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:chainmail_helmet": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:bamboo_fence": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:shears": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:experience_bottle": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:netherite_chestplate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:acacia_fence_gate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:powder_snow_bucket": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:comparator": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:orange_banner": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:ender_eye": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:bow": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:mangrove_fence_gate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:chainmail_leggings": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:oak_button": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:trident": {
+      "armKind": "TRIDENT",
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": -0.04669261,
+          "offY": -1.8521401,
+          "offZ": 0.015564203,
+          "rotX": 0.0,
+          "rotY": 32.0,
+          "rotZ": -180.0,
+          "pivotX": 0.01999998,
+          "pivotY": 0.03999996,
+          "pivotZ": 0.01999998
+        }
+      }
+    },
+    "minecraft:iron_nugget": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:crimson_pressure_plate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:enchanting_table": {
+      "armKind": "BLOCK"
+    },
+    "minecraft:birch_fence": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:jungle_pressure_plate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:slime_ball": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:spruce_fence": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:oak_leaves": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:warped_fence": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:lantern": {
+      "kind": "LANTERN",
+      "armKind": "LANTERN",
+      "physics": [
+        {
+          "name": "FULL_PENDULUM",
+          "limitDeg": 55.0,
+          "force": 0.1,
+          "speed": 1.0,
+          "cameraSens": 0.25,
+          "gravity": 25.0
+        }
+      ],
+      "disable_sprint_lateral_tilt": true,
+      "keep_arm_tuning": true,
+      "transforms": {
+        "right": {
+          "scale": 1.01,
+          "offX": -0.02,
+          "offY": -0.4299999,
+          "offZ": 0.11999998,
+          "rotX": -23.0,
+          "rotY": 35.0,
+          "rotZ": -80.0,
+          "pivotX": -0.10999997,
+          "pivotY": -0.009999985,
+          "pivotZ": -0.02,
+          "physics": "FULL_PENDULUM"
+        },
+        "left": {
+          "scale": 1.01,
+          "offX": 0.02,
+          "offY": -0.4299999,
+          "offZ": 0.11999998,
+          "rotX": -23.0,
+          "rotY": -35.0,
+          "rotZ": 80.0,
+          "pivotX": 0.10999997,
+          "pivotY": -0.009999985,
+          "pivotZ": -0.02,
+          "physics": "FULL_PENDULUM"
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": -0.16,
+          "offZ": -0.099999964,
+          "rotX": -23.0,
+          "rotY": -103.0,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": -0.16,
+          "offZ": -0.099999964,
+          "rotX": -23.0,
+          "rotY": 103.0,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:flint_and_steel": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:acacia_pressure_plate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:bamboo_fence_gate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:poppy": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:mangrove_pressure_plate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:jungle_button": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:ladder": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:sticky_piston": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:green_banner": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:dark_oak_pressure_plate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:slime_block": {
+      "armKind": "FULL_BLOCK"
+    },
+    "minecraft:mangrove_button": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:mangrove_fence": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:warped_button": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:pink_banner": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:rail": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:spruce_fence_gate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:acacia_button": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:wheat": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:leather_leggings": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:cherry_pressure_plate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:cherry_leaves": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:dark_oak_fence": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:cherry_fence_gate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:filled_map": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:jungle_fence_gate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:activator_rail": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:oak_pressure_plate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:brush": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:acacia_fence": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:turtle_helmet": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:crimson_fence": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:lime_banner": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:wind_charge": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:birch_fence_gate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:black_banner": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:oak_fence_gate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:tripwire_hook": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:dark_oak_button": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:birch_button": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:spruce_button": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:cyan_banner": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:elytra": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:gray_banner": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:iron_boots": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:flowering_azalea_leaves": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:chainmail_chestplate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:daylight_detector": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:lever": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:warped_pressure_plate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:blue_banner": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:dark_oak_fence_gate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:netherite_helmet": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:golden_boots": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:lightning_rod": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:red_banner": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:lingering_potion": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:jungle_fence": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:warped_fence_gate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:carrot": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:dark_oak_leaves": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:acacia_leaves": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:diamond_boots": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:ender_pearl": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:white_banner": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:leather_boots": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:azalea_leaves": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:diamond_chestplate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:honey_block": {
+      "armKind": "FULL_BLOCK"
+    },
+    "minecraft:mangrove_leaves": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:jungle_leaves": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:powered_rail": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:netherite_boots": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:polished_blackstone_button": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:leather_helmet": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:netherite_leggings": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:light_gray_banner": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:golden_helmet": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:snowball": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:string": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:chainmail_boots": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:shield": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:leather_chestplate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:netherite_shovel": {
+      "kind": "SHOVEL",
+      "armKind": "SHOVEL",
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": -17.0,
+          "rotY": 89.0,
+          "rotZ": -4.0,
+          "pivotX": 0.03,
+          "pivotY": 0.049999997,
+          "pivotZ": -0.02
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": -17.0,
+          "rotY": -89.0,
+          "rotZ": 4.0,
+          "pivotX": -0.03,
+          "pivotY": 0.049999997,
+          "pivotZ": -0.02
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:gold_nugget": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:stone_button": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:birch_pressure_plate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:iron_helmet": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:egg": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:brown_banner": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:copper_nugget": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:crimson_fence_gate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:splash_potion": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:cherry_fence": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:diamond_helmet": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:crimson_button": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:yellow_banner": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:golden_leggings": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:polished_blackstone_pressure_plate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:oak_fence": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:spruce_leaves": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:repeater": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:detector_rail": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:piston": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:flint": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:bamboo_button": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:diamond_leggings": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:birch_leaves": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:purple_banner": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:golden_chestplate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:pale_oak_leaves": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:spruce_pressure_plate": {
+      "armKind": "INGREDIENT"
+    },
+    "minecraft:spyglass": {
+      "armKind": "INGREDIENT"
+    }
+  }
+}

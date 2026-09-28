@@ -1,0 +1,188 @@
+# Written by BlockUI's config store. Edit it while the game is closed - the file is not
+# watched, and the running game overwrites it whenever a setting changes in-game.
+
+[gameplay]
+	# minecolonies.config.initialcitizenamount.comment [Default: 4, min: 1, max: 10]
+	initialcitizenamount = 4
+	# minecolonies.config.allowinfinitesupplychests.comment [Default: false]
+	allowinfinitesupplychests = false
+	# minecolonies.config.allowinfinitecolonies.comment [Default: false]
+	allowinfinitecolonies = false
+	# minecolonies.config.allowotherdimcolonies.comment [Default: true]
+	allowotherdimcolonies = true
+	# minecolonies.config.maxcitizenpercolony.comment [Default: 250, min: 25, max: 1000]
+	maxcitizenpercolony = 250
+	# minecolonies.config.enableindevelopmentfeatures.comment [Default: false]
+	enableindevelopmentfeatures = false
+	# minecolonies.config.alwaysrendernametag.comment [Default: true]
+	alwaysrendernametag = true
+	# minecolonies.config.workersalwaysworkinrain.comment [Default: false]
+	workersalwaysworkinrain = false
+	# minecolonies.config.luckyblockchance.comment [Default: 1, min: 0, max: 100]
+	luckyblockchance = 1
+	# minecolonies.config.minthleveltoteleport.comment [Default: 3, min: 0, max: 5]
+	minthleveltoteleport = 3
+	# minecolonies.config.foodmodifier.comment [Default: 1.0, min: 0.1, max: 100.0]
+	foodmodifier = 1.0
+	# minecolonies.config.diseasemodifier.comment [Default: 5, min: 1, max: 100]
+	diseasemodifier = 5
+	# How long a citizen may fail to get any closer to where its job sent it before it is teleported there, in seconds. 0 = never teleport. [Default: 60, min: 0, max: 3600]
+	stuckrescueseconds = 60
+	# minecolonies.config.forceloadcolony.comment [Default: true]
+	forceloadcolony = true
+	# minecolonies.config.loadtime.comment [Default: 20, min: 1, max: 1440]
+	loadtime = 20
+	# How many building claims have to overlap on a chunk before the "Chunk Load Colony" option keeps it loaded. The higher this value, the fewer chunks will be loaded. 1 keeps every chunk a building stands on or reaches; it still does not cover claimed ground with no building on it - for that use "Keep All Claimed Chunks Loaded". [Default: 3, min: 1, max: 15]
+	colonyloadstrictness = 3
+	# Default answer for colonies nobody has decided about: keep every chunk the colony owns loaded and ticking, not only the ones its buildings stand on. This is what stops citizens out on claimed ground - fields, roads, mines, enclaves - from freezing and then vanishing when no player is near. It is not free: each of those chunks then runs entity AI, block entities and random ticks like a chunk a player is standing in, so a large town costs roughly as much as one extra player being online. Mobs still do not spawn out there, and nothing is rendered anywhere. This is only the default - a colony set with '/mc colony forceloadclaims <colony> on|off' keeps its own answer whatever this says, and '/mc colony forceloadclaims <colony> default' hands it back. Off by default; the "Chunk Load Colony" timer and the "Maximum force-loaded chunks" ceiling both still apply. [Default: false]
+	forceloadallclaims = false
+	# Hard ceiling, per colony, on how many chunks one colony may keep loaded while nobody is near it - colonies do not share it and cannot starve each other of tickets. Every one of them keeps a 5x5 block of chunks loaded and its own centre chunk ticking, so this is the real cost of the "Chunk Load Colony" and "Keep All Claimed Chunks Loaded" options. The cap only refuses new chunks, it never releases one the colony already holds; when it bites, the chunks nearest the town hall are the ones kept, and '/mc colony forceloadclaims' says so. Set to 0 for no limit. [Default: 1024, min: 0, max: 4096]
+	maxforcedchunks = 1024
+	# How far, in blocks, a building may stand from a Builder's hut and still be built. This is the number behind "There is no Builder close enough to work on this building!". It is measured in three dimensions, so a hut sunk deep into a mountainside can be out of range while one the same ground distance away on the flat is not. Upstream hardcodes 100; the default here is raised deliberately. Keep "Maximum pathfinding distance" at least as high, or a Builder will accept work it cannot walk to. A Builder's own hut, the Town Hall, and any hut assigned to a Builder by hand ignore this entirely. [Default: 2000, min: 16, max: 5000]
+	maxbuilderdistance = 2000
+	# Let a decoration's footprint cross the colony border. Placement otherwise demands that every chunk the blueprint touches belongs to the colony, which puts a wall or a road a chunk short of the border it wants to sit on. A decoration - anything whose anchor is neither a hut nor a plantation field - owns no ground and files no claim, so this costs the colony nothing and takes nothing from a neighbour. Huts and plantation fields are unchanged. The anchor block must still stand inside the colony, because the work order is filed with the colony the anchor is in. [Default: true]
+	decorationsoutsidecolony = true
+	# minecolonies.config.maxtreesize.comment [Default: 400, min: 1, max: 1000]
+	maxtreesize = 400
+	# minecolonies.config.nosupplyplacementrestrictions.comment [Default: false]
+	nosupplyplacementrestrictions = false
+	# minecolonies.config.skyraiders.comment [Default: false]
+	skyraiders = false
+	# Needs the Simple Planes mod. When it is installed, some pirate raids arrive aboard an unmanned transport that flies over the colony, drops the raiders by parachute and leaves. Turn this off to keep every raid on foot; nothing else changes, and colonies without Simple Planes are unaffected either way. [Default: true]
+	airraids = true
+	# Percentage of pirate raids that arrive by air rather than on foot, when air raids are enabled and Simple Planes is installed. 0 disables air raids as surely as turning them off; 100 makes every pirate raid an air drop. [Default: 25, min: 0, max: 100]
+	airraidchance = 25
+	# Needs the Simple Planes mod. Sounds the raid warning and alerts the guards when an aircraft the colony did not send comes near, or the moment a scripted attack run is ordered against anything the colony owns. [Default: true]
+	aircraftwarnings = true
+	# Largest farm field, in blocks of ground, that may be laid out while free mode is on for the colony. Any shape is allowed as long as width times depth stays at or below this. Colonies without free mode keep the normal limit of 11x11. [Default: 4096, min: 121, max: 1000000]
+	freemodemaxfieldarea = 4096
+	# How many field cells the farmer may till, sow or harvest from one spot before pausing, while free mode is on for the colony. The pause between cells is the farmer's whole working rhythm, so this divides it: 3 means one pause for every three cells instead of one each. Cells only join a batch if they are within this many blocks of the citizen and in plain sight of it. 1 is the ordinary behaviour, which is what colonies without free mode always get. [Default: 3, min: 1, max: 8]
+	freemodefarmerbatchsize = 3
+	# The farmer clears whatever it cannot till inside its field - stone, gravel, sand, anything - and lays ground down in its place, then tills that. It never touches water, lava or a waterlogged block. With free mode on for the colony the ground is conjured; otherwise the farmer requests dirt and waits for it. Turn this off to get the old behaviour, where a cell that cannot be tilled is silently skipped. [Default: true]
+	farmerpreparesground = true
+	# How far, in blocks, a hut may reach when it claims a field on its own. Measured horizontally from the hut to the nearest block the field covers. A hut also lets go of a field that has drifted outside this range, unless the field was assigned by hand or the hut is on manual assignment. Set to 0 for no limit, which is how it behaved before. [Default: 128, min: 0, max: 100000]
+	maxfieldclaimdistance = 128
+	# Cows, sheep, pigs, chickens, rabbits and stabled horses standing inside a herder hut are given that hut as their home, which is the same restriction vanilla puts on a leashed animal: they no longer wander out of it, and one that has been pushed, frightened or carried out walks back. Leash an animal and unleash it somewhere else to take it out of the hut for good. Turn this off for vanilla wandering. [Default: true]
+	animalpencontainment = true
+	# Extra blocks of roaming room beyond the herder hut's own footprint. Zero keeps the animals to exactly the ground the hut's blueprint covers; larger values let them graze around it. [Default: 4, min: 0, max: 64]
+	animalpenslack = 4
+	# An animal found this many blocks outside its herder hut is put back inside it rather than left to walk. This is the backstop for animals that cannot walk home at all - across water, down a ravine, taken away in a boat. Set to 0 to never move an animal by hand, at the price of eventually losing the ones that get stuck. [Default: 32, min: 0, max: 256]
+	animalpenrecalldistance = 32
+	# How many visitors a tavern may hold for each level it has been built to, so the default of 3 gives a level 1 tavern 3 and a level 5 tavern 15. Every visitor is a live entity walking around a loaded colony, costing roughly a third of what a citizen costs, so the maximum of 10 puts 50 people in a finished tavern for about the price of 17 extra citizens. Raising this on its own fills the tavern very slowly - lower the visitor interval as well. Set to 0 for no visitors and no recruitment at all. [Default: 3, min: 0, max: 10]
+	visitorspertavernlevel = 3
+	# Multiplies every wait between visitor arrivals: the delay before a new tavern's first visitor, the gap between arrivals after that, and the pause after a visitor is killed. Below 1 they come faster, above 1 slower. A tavern cannot produce more than one visitor per 25 seconds however low this is set, because that is how often the tavern is asked. [Default: 1.0, min: 0.05, max: 5.0]
+	visitorintervalmodifier = 1.0
+	# Citizens age one colony day per colony day and eventually die of old age, going through the same grave, undertaker and re-hiring machinery as any other death. Turning it on also changes reproduction: births no longer need a free bed, and their rate is driven by food, happiness, housing pressure and the growth research instead of by a fixed timer. OFF by default - it kills citizens in a colony you may have played for weeks, and there is no undo. Existing citizens are given a random age between nothing and half a lifespan the first dawn after it is switched on, so nobody dies on the day you enable it. [Default: false]
+	generations = false
+	# How long an adult citizen lives, in colony days, before living conditions are taken into account. A colony day is one in-game day of loaded colony, twenty real minutes; a colony nobody visits does not age. Each citizen gets a personal deviation of up to a quarter either way, so a cohort does not die together, and misery shortens a life by up to half while a very happy one lengthens it by a quarter. Deaths a day work out to population divided by this, so 100 puts a 30 citizen town at about one funeral every three days of play and the 250 ceiling at two and a half a day. [Default: 100, min: 7, max: 10000]
+	generationslifespandays = 100
+	# Multiplies the generational birth rate. The rate is derived from the death rate - population divided by lifespan - so 1.0 means a colony with neutral living conditions exactly replaces itself, and a well fed, happy, well housed one already sits near 1.8 without touching this. Raise it if your colony keeps shrinking, lower it if the school cannot keep up. Has no effect unless generations is on. [Default: 1.0, min: 0.1, max: 5.0]
+	generationsbirthmodifier = 1.0
+
+[research]
+	# minecolonies.config.researchcreativecompletion.comment [Default: true]
+	researchcreativecompletion = true
+	# minecolonies.config.researchdebuglog.comment [Default: false]
+	researchdebuglog = false
+	# minecolonies.config.researchresetcost.comment
+	researchresetcost = ["minecolonies:ancienttome:1"]
+
+[commands]
+	# minecolonies.config.canplayerusertpcommand.comment [Default: false]
+	canplayerusertpcommand = false
+	# minecolonies.config.canplayerusecolonytpcommand.comment [Default: false]
+	canplayerusecolonytpcommand = false
+	# minecolonies.config.canplayeruseallytownhallteleport.comment [Default: true]
+	canplayeruseallytownhallteleport = true
+	# minecolonies.config.canplayerusehometpcommand.comment [Default: false]
+	canplayerusehometpcommand = false
+	# minecolonies.config.canplayeruseshowcolonyinfocommand.comment [Default: true]
+	canplayeruseshowcolonyinfocommand = true
+	# minecolonies.config.canplayerusekillcitizenscommand.comment [Default: false]
+	canplayerusekillcitizenscommand = false
+	# minecolonies.config.canplayerusemodifycitizenscommand.comment [Default: false]
+	canplayerusemodifycitizenscommand = false
+	# minecolonies.config.canplayeruseaddofficercommand.comment [Default: true]
+	canplayeruseaddofficercommand = true
+	# minecolonies.config.canplayerusedeletecolonycommand.comment [Default: false]
+	canplayerusedeletecolonycommand = false
+	# minecolonies.config.canplayeruseresetcommand.comment [Default: false]
+	canplayeruseresetcommand = false
+
+[claims]
+	# minecolonies.config.maxColonySize.comment [Default: 20, min: 1, max: 250]
+	maxColonySize = 20
+	# How many chunks a colony may hold further from its town hall than the claim range above - the enclaves it has claimed with the Land Claim Scepter. Placing a building on ground the colony already owns always registers that ground, at any distance; this only limits how much brand new land a building may take for itself out there. Set to 0 for no limit. [Default: 256, min: 0, max: 100000]
+	maxoutlyingchunks = 256
+	# minecolonies.config.minColonyDistance.comment [Default: 8, min: 1, max: 200]
+	minColonyDistance = 8
+	# minecolonies.config.initialColonySize.comment [Default: 4, min: 1, max: 15]
+	initialColonySize = 4
+	# minecolonies.config.maxdistancefromworldspawn.comment [Default: 30000, min: 1000, max: 2147483647]
+	maxdistancefromworldspawn = 30000
+	# minecolonies.config.mindistancefromworldspawn.comment [Default: 0, min: 0, max: 1000]
+	mindistancefromworldspawn = 0
+
+[combat]
+	# minecolonies.config.dobarbariansspawn.comment [Default: true]
+	dobarbariansspawn = true
+	# minecolonies.config.barbarianhordedifficulty.comment [Default: 5, min: 0, max: 10]
+	barbarianhordedifficulty = 5
+	# minecolonies.config.maxBarbarianSize.comment [Default: 80, min: 6, max: 400]
+	maxBarbarianSize = 80
+	# minecolonies.config.dobarbariansbreakthroughwalls.comment [Default: true]
+	dobarbariansbreakthroughwalls = true
+	# minecolonies.config.averagenumberofnightsbetweenraids.comment [Default: 14, min: 1, max: 50]
+	averagenumberofnightsbetweenraids = 14
+	# minecolonies.config.minimumnumberofnightsbetweenraids.comment [Default: 10, min: 1, max: 30]
+	minimumnumberofnightsbetweenraids = 10
+	# minecolonies.config.mobattackcitizens.comment [Default: true]
+	mobattackcitizens = true
+	# minecolonies.config.shouldraiderbreakdoors.comment [Default: true]
+	shouldraiderbreakdoors = true
+	# minecolonies.config.guardDamageMultiplier.comment [Default: 1.0, min: 0.1, max: 15.0]
+	guardDamageMultiplier = 1.0
+	# minecolonies.config.guardhealthmult.comment [Default: 1.0, min: 0.1, max: 5.0]
+	guardhealthmult = 1.0
+	# How many blocks up and down a Guard looks for enemies. At the default of 3 a Knight does not notice a mob standing on a wall or a roof beside him; Archers on guard duty already look 28 blocks up. Raising this makes Guards fight more, and widens the entity search they run every four seconds. [Default: 12, min: 3, max: 64]
+	guardverticalvision = 12
+	# Whether Guards nod off while on duty, to be woken by a colleague. This happens by day as well as by night and costs a Guard roughly a tenth of his working time. Off means Guards never sleep. [Default: true]
+	guardsfallasleep = true
+	# minecolonies.config.pvp_mode.comment [Default: false]
+	pvp_mode = false
+
+[permissions]
+	# minecolonies.config.enablecolonyprotection.comment [Default: true]
+	enablecolonyprotection = true
+	# minecolonies.config.turnoffexplosionsincolonies.comment [Default: DAMAGE_ENTITIES, values: DAMAGE_NOTHING, DAMAGE_PLAYERS, DAMAGE_ENTITIES, DAMAGE_EVERYTHING]
+	turnoffexplosionsincolonies = "DAMAGE_ENTITIES"
+	# minecolonies.config.permissioneventbypassminpermlevel.comment [Default: 2, min: 0, max: 4]
+	permissioneventbypassminpermlevel = 2
+
+[compatibility]
+	# minecolonies.config.auditcraftingtags.comment [Default: false]
+	auditcraftingtags = false
+	# minecolonies.config.debuginventories.comment [Default: false]
+	debuginventories = false
+	# Logs every hit a cavalry horse takes, every cavalry horse death and every cavalry horse leaving a chunk, each with a stack trace. Off by default: in a fight this is several lines per second. [Default: false]
+	cavalrydebuglog = false
+	# minecolonies.config.blueprintbuildmode.comment [Default: false]
+	blueprintbuildmode = false
+	# minecolonies.config.pathNodeLimitMultiplier.comment [Default: 1.0, min: 1.0, max: 4.0]
+	pathNodeLimitMultiplier = 1.0
+	# minecolonies.config.minimumrailstopath.comment [Default: 8, min: 5, max: 100]
+	minimumrailstopath = 8
+	# Minimum number of consecutive water blocks for citizens to cross them by boat instead of swimming. [Default: 5, min: 2, max: 100]
+	minimumwatertoboat = 5
+	# How fast citizens steer a colony boat, in blocks per second, the same unit as the vanilla maxMinecartSpeed game rule. The boat travels 0.9 of this once the game's in-water drag is applied, so the default 6 crosses water at 5.4 blocks per second. Change it live with '/mc boatspeed'. [Default: 6.0, min: 2.0, max: 20.0]
+	boatspeed = 6.0
+	# How far, in blocks, a citizen may be ordered to walk in one go. An order beyond this is refused outright and the citizen is sent home, so an enclave further away than this can never be reached. Raising it does not make the pathfinder work harder on any single route - the node budget is the same at 3000 blocks as at 300 - but a route only succeeds at that range if it follows rails or open water; over broken ground the search runs out of nodes about 100 blocks from the start whatever the target is. Rails and water also need their chunks kept loaded the whole way. [Default: 2000, min: 100, max: 5000]
+	maxpathfindingdistance = 2000
+	# When a search finds a route to its destination, stop as soon as nothing left in the queue could beat that route, instead of expanding everything cheaper than it. On by default. Measured on a live colony it takes about 4% off the pathfinding thread, because most searches never reach their destination and a search that never arrives has no tail to cut; where citizens travel by rail or boat it is worth far more - 800 blocks of rail fell from 6223 search nodes to 16, 796 blocks of open water from 8301 to 30. Route quality was measured too: every test route came back identical, and the average length moved by -0.1%. Turn it off only if workers start taking visibly silly routes. [Default: true]
+	stopsearchonarrival = true
+	# How many worker threads the pathfinding pool runs. The default is 1, the size the pool was hard-coded to before this setting existed, so leaving it alone changes nothing. Read once, when the pool is first built, so a change here takes effect on the next server start; '/mc debug maxpool' changes the size of a running pool instead, without losing the searches already on it. Raising it lets several searches run at once on a server whose citizens are waiting on the queue - /mc pathstats reports that wait - but the searches read the live world, and the block storage they read is not written for concurrent readers. That is already true at one thread; more threads widen the window. Try it on a server you can watch. [Default: 1, min: 1, max: 8]
+	pathfindingthreads = 1
+
+[requestSystem]
+	# minecolonies.config.creativeresolve.comment [Default: false]
+	creativeresolve = false

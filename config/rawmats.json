@@ -1,0 +1,10 @@
+{
+  "Hotkeys": {
+    "openRawMaterialList": {
+      "keys": "M,K"
+    },
+    "openConfig": {
+      "keys": "M,J"
+    }
+  }
+}

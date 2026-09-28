@@ -1,0 +1,21 @@
+{
+  "mainhandScale": 1.0,
+  "mainhandTranslateX": 0.0,
+  "mainhandTranslateY": 0.0,
+  "mainhandTranslateZ": 0.0,
+  "mainhandRotateX": 0.0,
+  "mainhandRotateY": 0.0,
+  "mainhandRotateZ": 0.0,
+  "offhandScale": 1.0,
+  "offhandTranslateX": 0.0,
+  "offhandTranslateY": 0.0,
+  "offhandTranslateZ": 0.0,
+  "offhandRotateX": 0.0,
+  "offhandRotateY": 0.0,
+  "offhandRotateZ": 0.0,
+  "particleScale": 1.0,
+  "statusEffectParticlesKept": 0.0,
+  "totemPopScale": 1.0,
+  "TotemParticleScale": 1.0,
+  "eatingCrumbsScale": 1.0
+}

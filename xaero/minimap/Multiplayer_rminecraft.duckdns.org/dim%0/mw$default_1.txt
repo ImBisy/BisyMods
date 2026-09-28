@@ -1,0 +1,7 @@
+sets:gui.xaero_default:Waystones
+#
+#waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type:destination
+#
+waypoint:idk bored:I:-984:63:338:5:false:0:gui.xaero_default:false:0:0:false
+waypoint:Town Hall:T:-706:63:180:14:false:0:gui.xaero_default:false:0:3:false
+waypoint:Bed:B:-731:62:270:12:false:0:gui.xaero_default:false:0:1:false

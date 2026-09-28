@@ -1,0 +1,12 @@
+craftingslots:inventory_crafting	inventory_particles:inventory_crafting/fallback/standard_0	0	0	8	8
+craftingslots:inventory_crafting	inventory_particles:inventory_crafting/fallback/standard_1	8	0	8	8
+craftingslots:inventory_crafting	inventory_particles:inventory_crafting/fallback/standard_2	16	0	8	8
+craftingslots:inventory_crafting	inventory_particles:inventory_crafting/fallback/standard_3	24	0	8	8
+craftingslots:inventory_crafting	inventory_particles:inventory_crafting/fallback/standard_4	32	0	8	8
+craftingslots:inventory_crafting	inventory_particles:inventory_crafting/fallback/standard_5	40	0	8	8
+craftingslots:portable_crafting	inventory_particles:portable_crafting/fallback/standard_0	48	0	8	8
+craftingslots:portable_crafting	inventory_particles:portable_crafting/fallback/standard_1	56	0	8	8
+craftingslots:portable_crafting	inventory_particles:portable_crafting/fallback/standard_2	64	0	8	8
+craftingslots:portable_crafting	inventory_particles:portable_crafting/fallback/standard_3	72	0	8	8
+craftingslots:portable_crafting	inventory_particles:portable_crafting/fallback/standard_4	80	0	8	8
+craftingslots:portable_crafting	inventory_particles:portable_crafting/fallback/standard_5	88	0	8	8

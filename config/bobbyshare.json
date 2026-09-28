@@ -1,0 +1,9 @@
+{
+  "rateLimitBurst": 200.0,
+  "rateLimitRefill": 80.0,
+  "cacheCapacity": 4096,
+  "maxRequestDistance": 34.0,
+  "blacklistedDimensions": [
+    "minecraft:the_end"
+  ]
+}

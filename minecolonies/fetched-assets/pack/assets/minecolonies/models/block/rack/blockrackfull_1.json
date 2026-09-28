@@ -1,0 +1,16 @@
+{
+  "parent": "minecolonies:block/blockrackfull",
+  "textures": {
+    "0": "block/oak_planks",
+    "1": "block/stone",
+    "9": "minecolonies:block/rack/slot0",
+    "10": "minecolonies:block/rack/slot1",
+    "11": "minecolonies:block/rack/slot2",
+    "12": "minecolonies:block/rack/slot3",
+    "sur9": "minecolonies:block/rack/surface0",
+    "sur10": "minecolonies:block/rack/surface1",
+    "sur11": "minecolonies:block/rack/surface2",
+    "sur12": "minecolonies:block/rack/surface3",
+    "particle": "block/oak_planks"
+  }
+}

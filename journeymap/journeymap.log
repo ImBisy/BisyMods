@@ -1,0 +1,212 @@
+[22:08:49] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[22:08:49] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[22:08:49] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 2.0.0
+[22:08:49] [Render thread/INFO] [PluginHelper] Initialized IJourneyMapPlugin as:net.blay09.mods.waystones.compat.JourneyMapIntegration: for:waystones
+[22:08:49] [Render thread/INFO] [?] Version: JourneyMap 26.2-6.0.8, built with fabric 0.152.1+26.2
+fabric: 0.19.3
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
+SP: : Worldie _2 : 
+MP: : BisyMC : offline : 
+Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapTopo : singleplayer = true , multiplayer = true
+	MapSurface : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+	MapBiome : singleplayer = true , multiplayer = true
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=6.0.8, infoSlotTimeFormat=HH:mm:ss, zoomLevel=4096, compassFontScale=1.0, infoSlotFontScale=1.0, terrainAlpha=100, showEntityNames=false, showPassiveNames=false, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, showPlayerNames=true, preferredMapType=day, showCompass=true, showNpcNames=false, mobDisplay=Dots and Outlined Icons, showHostileNames=false, systemTimeRealFormat=HH:mm:ss, shape=Circle, showSelf=true, showVillagerNames=false, selfDisplayScale=1.0, showGrid=true, reticleOrientation=Compass, minimapLockedMapType=jm.common.map_type.auto, effectTranslateX=0, info3LabelPosition=Bottom, showWaypoints=true, info2LabelPosition=Top, minimapKeyMovementSpeed=0.001, info1LabelPosition=Top, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, showAmbientNames=false, moveEffectIcons=true, showTeamNames=true, position=Top Right, fontScale=1.0, info4LabelPosition=Bottom, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=false, showVillagers=true, info2Label=jm.theme.labelsource.gametime, hudRenderLayer=Last, info3Label=jm.theme.labelsource.location, caveLayer=4, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=North, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=Outlined Icons, mobDisplayScale=1.0, showOffScreenPlayers=true, showCaves=true, hideEffectIcons=false, showMobHeading=true, locationFormatVerbose=true, showAmbientCreatures=false, showPetNames=false, info1Label=jm.theme.labelsource.blank, showNoIconNames=true}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=6.0.8, infoSlotTimeFormat=HH:mm:ss, zoomLevel=512, compassFontScale=1.0, infoSlotFontScale=1.0, terrainAlpha=100, showEntityNames=false, showPassiveNames=false, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, showPlayerNames=true, preferredMapType=day, showCompass=true, showNpcNames=false, mobDisplay=Dots and Outlined Icons, showHostileNames=false, systemTimeRealFormat=HH:mm:ss, shape=Horizontal Rectangle, showSelf=true, showVillagerNames=false, selfDisplayScale=1.0, showGrid=true, reticleOrientation=Compass, minimapLockedMapType=jm.common.map_type.auto, effectTranslateX=0, info3LabelPosition=Bottom, showWaypoints=true, info2LabelPosition=Top, minimapKeyMovementSpeed=0.001, info1LabelPosition=Top, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, showAmbientNames=false, moveEffectIcons=true, showTeamNames=true, position=Top Right, fontScale=1.0, info4LabelPosition=Bottom, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, hudRenderLayer=Last, info3Label=jm.theme.labelsource.location, caveLayer=4, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=North, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=Outlined Icons, mobDisplayScale=1.0, showOffScreenPlayers=true, showCaves=true, hideEffectIcons=false, showMobHeading=true, locationFormatVerbose=true, showAmbientCreatures=false, showPetNames=false, info1Label=jm.theme.labelsource.blank, showNoIconNames=true}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=6.0.8, zoomLevel=1024, minimalMode=false, showPlayers=true, waypointIconScale=1.0, showEntityNames=false, showPassiveNames=false, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=true, showPets=true, waypointLabelScale=1.0, showPlayerNames=true, preferredMapType=day, showNpcNames=false, mobDisplay=Dots and Outlined Icons, showHostileNames=false, pauseGame=false, showSelf=true, locationFormat=xzyv, playerDisplay=Outlined Icons, showVillagerNames=false, mobDisplayScale=1.0, selfDisplayScale=1.0, showOffScreenPlayers=true, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showThemeButton=true, showAnimals=false, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, showAmbientNames=false, showAmbientCreatures=false, showTeamNames=true, showPetNames=false, fontScale=1.0, showNoIconNames=true}
+WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=6.0.8, autoRemoveDeathpointDistance=2, showPlayers=false, dateFormat=MM-dd-yyyy, autoHideIconAngle=5, playerMaxDistance=0, autoRemoveDeathpoints=false, autoHideIcon=false, autoHideLabelAngle=5, renderWaypointsWorld=true, showLabelBackground=true, showDeleteConfirmation=true, managerDimensionFocus=false, fullscreenDoubleClickToCreate=true, minDistance=4, coordinatesFormat=XZY, boldLabel=false, disableShare=false, showDeathpointlabel=true, autoHideLabelVertical=true, textureSmall=true, useActionsButton=false, beaconEnabled=false, createDeathpoints=true, disableStrikeThrough=false, renderWaypointsMap=true, showName=true, autoHideLabelVerticalAngle=10, maxDistance=0, ignoreRenderDistance=false, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/execute in {dim} run tp {name} {x} {y} {z}, showStaticBeam=true, renderWaypoints=true, wholeNumberTeleportCoords=false, timeFormat=HH:mm:ss, shaderBeacon=false, playerMinDistance=10, showDistance=true, showRotatingBeam=true, fontScale=2.0, managerEnabled=false}
+WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=6.0.8, port=8080, enabled=false}
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=6.0.8, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, maxAmbientCreaturesData=32, optionsManagerViewed=6.0.8, announceMod=true, ignoreSnow=false, colorPassive=#bbbbbb, colorPassiveLabel=#bbbbbb, mapShadows=true, mapBlendWater=true, playerIconFade=true, renderDistanceSurfaceMax=0, seedId=false, colorPetLabel=#0077ff, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, initialSortOrder=Name, colorPlayerLabel=#ffffff, revealShape=Circle, mapBiome=true, minimapPresetOverlay=true, caveShader=jm.common.map_filter.default, colorVillagerLabel=#88e188, alwaysMapSurface=false, biomeShader=jm.common.map_filter.default, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, sortDescending=true, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, dayShader=jm.common.map_filter.default, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, colorHostileLabel=#ff0000, mapBlendFoliage=true, netherSurfaceLighting=true, topoMax=0, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, cacheVillagersData=2000, minimapMapTypeOverlay=true, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=true, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, caveModeThreshold=2, legacyIcons=false, netherShader=jm.common.map_filter.default, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, mapOnlyPlayerChunk=false, nightShader=jm.common.map_filter.default, cacheMobsData=3000, drawStepUpdateRate=500, cachePlayerData=1000, splashViewed=6.0.8, colorHostile=#ff0000, topoShader=jm.common.map_filter.default, allowMiniMapBehindScreens=true, cacheAnimalsData=3000, ignoreHeightmaps=false, lodsEnabled=true, themeName=Purist, mapCaveLighting=true, renderDelay=500, mobIconFade=true, serverIp=false, glErrorChecking=false, autoMapPoll=2000}
+[22:08:49] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 135.18ms
+[22:08:49] [Render thread/ERROR] [FileHandler] Couldn't unzip resource set from //Users/charlieichikowitz/Library/Application Support/ModrinthApp/profiles/Ramen%20simple%20mods%201.0.2.2/mods/journeymap-fabric-26.2-6.0.8.jar to /Users/charlieichikowitz/Library/Application Support/ModrinthApp/profiles/Ramen%20simple%20mods%201.0.2.2/journeymap/icon/theme/victorian_:
+java.nio.file.NoSuchFileException: /Users/charlieichikowitz/Library/Application Support/ModrinthApp/profiles/Ramen simple mods 1.0.2.2/mods/journeymap-fabric-26.2-6.0.8.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(Unknown Source)
+	at java.base/java.nio.file.Files.readAttributes(Unknown Source)
+	at java.base/java.util.zip.ZipFile$Source.get(Unknown Source)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+	at knot//journeymap.client.io.FileHandler.copyFromZip(FileHandler.java:633)
+	at knot//journeymap.client.io.FileHandler.copyResources(FileHandler.java:567)
+	at knot//journeymap.client.io.FileHandler.copyResources(FileHandler.java:525)
+	at knot//journeymap.client.io.ThemeLoader.initialize(ThemeLoader.java:76)
+	at knot//journeymap.client.JourneymapClient.postInit(JourneymapClient.java:200)
+	at knot//journeymap.client.JourneymapClientFabric.lambda$onInitializeClient$0(JourneymapClientFabric.java:35)
+	at knot//net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientLifecycleEvents.lambda$static$1(ClientLifecycleEvents.java:35)
+	at knot//net.minecraft.client.Minecraft.handler$cio000$fabric-lifecycle-events-v1$onStart(Minecraft.java:17173)
+	at knot//net.minecraft.client.Minecraft.run(Minecraft.java:941)
+	at knot//net.minecraft.client.main.Main.main(Main.java:292)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:517)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:61)
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
+[22:08:49] [Render thread/ERROR] [FileHandler] Couldn't unzip resource set from //Users/charlieichikowitz/Library/Application Support/ModrinthApp/profiles/Ramen%20simple%20mods%201.0.2.2/mods/journeymap-fabric-26.2-6.0.8.jar to /Users/charlieichikowitz/Library/Application Support/ModrinthApp/profiles/Ramen%20simple%20mods%201.0.2.2/journeymap/icon/theme/flat:
+java.nio.file.NoSuchFileException: /Users/charlieichikowitz/Library/Application Support/ModrinthApp/profiles/Ramen simple mods 1.0.2.2/mods/journeymap-fabric-26.2-6.0.8.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(Unknown Source)
+	at java.base/java.nio.file.Files.readAttributes(Unknown Source)
+	at java.base/java.util.zip.ZipFile$Source.get(Unknown Source)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+	at knot//journeymap.client.io.FileHandler.copyFromZip(FileHandler.java:633)
+	at knot//journeymap.client.io.FileHandler.copyResources(FileHandler.java:567)
+	at knot//journeymap.client.io.FileHandler.copyResources(FileHandler.java:525)
+	at knot//journeymap.client.io.ThemeLoader.initialize(ThemeLoader.java:76)
+	at knot//journeymap.client.JourneymapClient.postInit(JourneymapClient.java:200)
+	at knot//journeymap.client.JourneymapClientFabric.lambda$onInitializeClient$0(JourneymapClientFabric.java:35)
+	at knot//net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientLifecycleEvents.lambda$static$1(ClientLifecycleEvents.java:35)
+	at knot//net.minecraft.client.Minecraft.handler$cio000$fabric-lifecycle-events-v1$onStart(Minecraft.java:17173)
+	at knot//net.minecraft.client.Minecraft.run(Minecraft.java:941)
+	at knot//net.minecraft.client.main.Main.main(Main.java:292)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:517)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:61)
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
+[22:08:49] [Render thread/ERROR] [FileHandler] Couldn't unzip resource set from //Users/charlieichikowitz/Library/Application Support/ModrinthApp/profiles/Ramen%20simple%20mods%201.0.2.2/mods/journeymap-fabric-26.2-6.0.8.jar to /Users/charlieichikowitz/Library/Application Support/ModrinthApp/profiles/Ramen%20simple%20mods%201.0.2.2/journeymap/icon/theme/vault_flat:
+java.nio.file.NoSuchFileException: /Users/charlieichikowitz/Library/Application Support/ModrinthApp/profiles/Ramen simple mods 1.0.2.2/mods/journeymap-fabric-26.2-6.0.8.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(Unknown Source)
+	at java.base/java.nio.file.Files.readAttributes(Unknown Source)
+	at java.base/java.util.zip.ZipFile$Source.get(Unknown Source)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+	at knot//journeymap.client.io.FileHandler.copyFromZip(FileHandler.java:633)
+	at knot//journeymap.client.io.FileHandler.copyResources(FileHandler.java:567)
+	at knot//journeymap.client.io.FileHandler.copyResources(FileHandler.java:525)
+	at knot//journeymap.client.io.ThemeLoader.initialize(ThemeLoader.java:76)
+	at knot//journeymap.client.JourneymapClient.postInit(JourneymapClient.java:200)
+	at knot//journeymap.client.JourneymapClientFabric.lambda$onInitializeClient$0(JourneymapClientFabric.java:35)
+	at knot//net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientLifecycleEvents.lambda$static$1(ClientLifecycleEvents.java:35)
+	at knot//net.minecraft.client.Minecraft.handler$cio000$fabric-lifecycle-events-v1$onStart(Minecraft.java:17173)
+	at knot//net.minecraft.client.Minecraft.run(Minecraft.java:941)
+	at knot//net.minecraft.client.main.Main.main(Main.java:292)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:517)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:61)
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
+[22:08:49] [Render thread/ERROR] [FileHandler] Couldn't unzip resource set from //Users/charlieichikowitz/Library/Application Support/ModrinthApp/profiles/Ramen%20simple%20mods%201.0.2.2/mods/journeymap-fabric-26.2-6.0.8.jar to /Users/charlieichikowitz/Library/Application Support/ModrinthApp/profiles/Ramen%20simple%20mods%201.0.2.2/journeymap/icon/theme/vault:
+java.nio.file.NoSuchFileException: /Users/charlieichikowitz/Library/Application Support/ModrinthApp/profiles/Ramen simple mods 1.0.2.2/mods/journeymap-fabric-26.2-6.0.8.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(Unknown Source)
+	at java.base/java.nio.file.Files.readAttributes(Unknown Source)
+	at java.base/java.util.zip.ZipFile$Source.get(Unknown Source)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.base/java.util.zip.ZipFile.<init>(Unknown Source)
+	at knot//journeymap.client.io.FileHandler.copyFromZip(FileHandler.java:633)
+	at knot//journeymap.client.io.FileHandler.copyResources(FileHandler.java:567)
+	at knot//journeymap.client.io.FileHandler.copyResources(FileHandler.java:525)
+	at knot//journeymap.client.io.ThemeLoader.initialize(ThemeLoader.java:76)
+	at knot//journeymap.client.JourneymapClient.postInit(JourneymapClient.java:200)
+	at knot//journeymap.client.JourneymapClientFabric.lambda$onInitializeClient$0(JourneymapClientFabric.java:35)
+	at knot//net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientLifecycleEvents.lambda$static$1(ClientLifecycleEvents.java:35)
+	at knot//net.minecraft.client.Minecraft.handler$cio000$fabric-lifecycle-events-v1$onStart(Minecraft.java:17173)
+	at knot//net.minecraft.client.Minecraft.run(Minecraft.java:941)
+	at knot//net.minecraft.client.main.Main.main(Main.java:292)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:517)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:61)
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
+[22:08:49] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 0
+[22:08:49] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 248.39ms
+[22:09:06] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: Default Palette
+[22:09:32] [Server thread/INFO] [PluginHelper] Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
+[22:09:37] [Server thread/INFO] [PluginHelper] Initialized IJourneyMapPlugin as:journeymap.api.plugins.LoadedChunkOverlayPlugin: for:journeymap_chunk_overlay
+[22:09:45] [Server thread/INFO] [HandshakePacket] JourneyMap client version for ImBisy: 6.0.8 (server version: 6.0.8)
+[22:09:46] [Render thread/INFO] [HandshakePacket] JourneyMap server version: 6.0.8 (client version: 6.0.8)
+[22:09:46] [Render thread/INFO] [HandshakePacket] JourneyMap server version: 6.0.8 (client version: 6.0.8)
+[22:09:46] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[22:09:46] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[22:09:46] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[22:09:46] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointTeleportOnly: false
+[22:09:46] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[22:09:46] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[22:09:46] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[22:09:46] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[22:09:46] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[22:09:46] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[22:09:46] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[22:09:46] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[22:09:46] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[22:09:46] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[22:09:46] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[22:09:46] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[22:09:46] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[22:09:46] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[22:09:46] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[22:09:46] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[22:09:46] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[22:09:46] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[22:09:46] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[22:09:48] [Render thread/INFO] [FabricEventHandlerManager] 3d-Skin-Layers:1.11.2, Accurate Block Placement:1.4.6+mc-26.1-26.2, Amber:11.2.1+26.2, AmbientEnvironment:26.2.1, AppleSkin:3.0.10+mc26.2, Architectury:21.1.9, Armor Stands:3.0.4+26.2, Axolotl Item Fix:${version}, BBE:1.3.8-beta.1+mc26.2, Balm:26.2.0.8, Better Statistics Screen:5.5.6+fabric-26.2, BetterF3:19.0.0, BetterThanMending:2.3.0, BlockUI Fabric 26.2 (Unofficial):0.0.1, CICADA:0.15.2+26.2, CameraOverhaul:2.1.1-fabric+mc.26.1-plus, Cardinal Components API (base):8.0.0, Cardinal Components API (entities):8.0.0, Chat Heads:1.2.8, Cherished Worlds:17.0.0+26.2, ClickMobs:1.3.4+26.2-fabric, Cloth Config v26.2:26.2.155, Clumps:26.2.1, CodecUI:26.2-1.4.3, Collective:8.39, Common Network:26.2-1.1.0, Concurrent Chunk Management Engine (Base):0.4.2-alpha.0.52+26.2, Concurrent Chunk Management Engine (Client/Uncap View Distance):0.4.2-alpha.0.52+26.2, Concurrent Chunk Management Engine (Fixes/Chunk IO/Threading Issues):0.4.2-alpha.0.52+26.2, Concurrent Chunk Management Engine (Fixes/General/Threading Issues):0.4.2-alpha.0.52+26.2, Concurrent Chunk Management Engine (Fixes/WorldGen/Threading Issues):0.4.2-alpha.0.52+26.2, Concurrent Chunk Management Engine (Fixes/WorldGen/Vanilla Bugs):0.4.2-alpha.0.52+26.2, Concurrent Chunk Management Engine (No Tick View Distance):0.4.2-alpha.0.52+26.2, Concurrent Chunk Management Engine (Optimizations/Chunk IO):0.4.2-alpha.0.52+26.2, Concurrent Chunk Management Engine (Optimizations/Density Function Compiler):0.4.2-alpha.0.52+26.2, Concurrent Chunk Management Engine (Optimizations/General WorldGen):0.4.2-alpha.0.52+26.2, Concurrent Chunk Management Engine (Optimizations/Math):0.4.2-alpha.0.52+26.2, Concurrent Chunk Management Engine (Optimizations/Memory Allocations):0.4.2-alpha.0.52+26.2, Concurrent Chunk Management Engine (Optimizations/Natives Math):0.4.2-alpha.0.52+26.2, Concurrent Chunk Management Engine (Optimizations/Scheduling):0.4.2-alpha.0.52+26.2, Concurrent Chunk Management Engine (Optimizations/Vanilla WorldGen):0.4.2-alpha.0.52+26.2, Concurrent Chunk Management Engine (Rewrites/Chunk IO):0.4.2-alpha.0.52+26.2, Concurrent Chunk Management Engine (Rewrites/Chunk Serializer):0.4.2-alpha.0.52+26.2, Concurrent Chunk Management Engine (Rewrites/Chunk System):0.4.2-alpha.0.52+26.2, Concurrent Chunk Management Engine (Server Utils):0.4.2-alpha.0.52+26.2, Concurrent Chunk Management Engine (Threading/Lighting):0.4.2-alpha.0.52+26.2, Concurrent Chunk Management Engine:0.4.2-alpha.0.52+26.2, ConfigLib TXF:26.2-2.0.4-fabric, Configured Fabric Command Adapter:0.3.2, Continuity:3.0.1+26.2, Controlling:26.2.2, Crafting Slots:26.2.0.1, Crash Assistant:1.11.13, CreativeCore:2.14.16, Crops Love Rain:3.2.1, Day Counter (Original) for 1.16 - Latest!:4, Domum Ornamentum Fabric 26.2 (Unofficial):1.0.0, Easy Anvils:26.2.3, Easy Magic:26.2.0, Easy Shulker Boxes:26.2.3, Elytra Chestplate Swapper:2.1.0, EmLib:1.0.1, Emotecraft:3.4.0-b.build.166, Entity Model Features:3.3.6, Entity Sound Features:0.8.2, Entity Texture Features:7.2.2, EntityCulling:1.10.5, Euphoria Patcher:1.10.5-r5.9.3-fabric, Extreme Sound Muffler:4.3, FPS Reducer:26.2-2.17, FPS-Display:5.1.0+26.2, Fabric API Base:2.0.4+ece063239e, Fabric API Lookup API (v1):2.0.18+11e1c9a39e, Fabric API:0.160.0+26.2, Fabric Biome API (v1):18.0.6+c7bd5b8e9e, Fabric Block API (v1):3.1.0+53515aab9e, Fabric BlockGetter API (v2):2.0.7+ec56b6019e, Fabric Command API (v2):3.1.0+00cb03469e, Fabric Content Registries (v0):11.3.2+37b1aa249e, Fabric Convention Tags (v2):4.7.1+1f023a9e9e, Fabric Crash Report Info (v1):1.0.5+086d547a9e, Fabric Creative Tab API (v1):5.0.15+6468574f9e, Fabric Data Attachment API (v1):2.2.19+515ac5339e, Fabric Data Generation API (v1):25.6.0+c0da0b829e, Fabric Debug API (v1):1.0.2+c792624d9e, Fabric Dimensions API (v1):5.1.12+515ac5339e, Fabric Entity Events (v1):5.0.5+06488ac19e, Fabric Events Interaction (v0):5.2.8+515ac5339e, Fabric Game Rule API (v1):4.0.8+46a6d00c9e, Fabric Item API (v1):14.5.0+c68f6cbe9e, Fabric Key Mapping API (v1):2.0.5+e2bdee789e, Fabric Language Kotlin:1.14.1+kotlin.2.4.20, Fabric Lifecycle Events (v1):4.1.4+29b6eb019e, Fabric Loader:0.19.5, Fabric Loot API (v3):3.0.17+06488ac19e, Fabric Menu API (v1):2.0.17+086d547a9e, Fabric Message API (v1):7.0.8+bb2ed3f79e, Fabric Model Loading API (v1):8.0.17+c80601bb9e, Fabric Networking API (v1):6.3.4+2989c6a09e, Fabric Object Builder API (v1):24.1.1+6fcd5f039e, Fabric Particles (v1):5.0.19+d1756aa99e, Fabric Permission API (v1):1.0.5+e442d8d09e, Fabric Recipe API (v1):9.0.22+11e1c9a39e, Fabric Registry Sync (v0):7.1.1+c7bd5b8e9e, Fabric Renderer - Indigo:9.1.4+2b0d8a229e, Fabric Renderer API (v1):14.1.4+2b0d8a229e, Fabric Rendering (v1):25.3.3+515ac5339e, Fabric Rendering Fluids (v1):6.0.4+06488ac19e, Fabric Resource Conditions API (v1):6.1.0+10e9a28b9e, Fabric Resource Loader (v0):3.3.20+4fc5413f9e, Fabric Resource Loader (v1):2.0.13+9edec1269e, Fabric Screen API (v1):5.2.1+5087f8249e, Fabric Serialization API (v1):2.0.4+11a26f319e, Fabric Sound API (v1):2.0.5+11a26f319e, Fabric Tag API (v1):2.1.4+515ac5339e, Fabric Transfer API (v1):8.0.13+11dbb7d79e, Fabric Transitive Access Wideners (v1):8.1.4+67c847259e, Fast Smelt:1-v1.1.1, FastBack:0.34.0+26.2.0, Faster Crouching:2.7, FerriteCore:9.0.0, Field Guide:1.7.11, Forge Config API Port:26.2.1, Freecam:1.4.1, Haul:1-v1.3.4, Hide Experimental Warning:1.2, Iceberg:1.4.2.1, ImmediatelyFast:1.16.5+26.2, Immersive Hotbar:1.2.2-26.2, Immersive Overlays:1.8.4+26.2, Inventory Essentials:26.2.0.4, Inventory HUD +:3.4.34, Inventory Particles:3.1.0+26.2+fabric, Iris:1.11.4+mc26.2, Item Borders:1.3.2, Item Descriptions:2.8.4+26.2, Item Interactions:26.2.2, ItemPhysicLite:1.6.12, Jade:26.2.11+fabric, JavaEWAH:1.2.3, JourneyMap API:26.2-2.0.0, Journeymap:26.2-6.0.8, Just Enough Items:30.29.0.201, KeepMyModMenuScroll:1.0.0, Konfig:0.7.2+26.2, KumaAPI:26.2.0.1, LambDynamicLights (API):4.12.4+26.2, LambDynamicLights:4.12.4+26.2, LibJF Base:26.2.2, LibJF Config Commands:26.2.2, LibJF Config UI: Tiny:26.2.2, LibJF Config: Network:26.2.2, LibJF Config:26.2.2, LibJF Data Manipulation:26.2.2, LibJF Data:26.2.2, LibJF MainHTTP:26.2.2, LibJF Resource Pack Entry Widgets:26.2.2, LibJF Translate:26.2.2, LibJF Unsafe:26.2.2, LibJF Web:26.2.2, LibJF:26.2.2, Litematica Companion:2.0.0, Litematica RawMaterials:0.4.1, Litematica:0.28.8, Liteminer:4.1.4+26.2, Lithium:0.25.3+mc26.2, MRU:1.0.40+26.2, MaLiLib:0.29.6, Maces Origins Updated 2:1.0.0+mc26.2, MineColonies Fabric 26.2 (Unofficial):0.0.66, Minecraft:26.2, MixinExtras:0.5.5, MixinSquared:0.3.7-beta.1, Mod Menu: Pins:1.0.5+26.2, Mod Menu:20.0.2, More Chat History:2.0.0, More Culling:1.8.1, MossyLib:1.5.0+26.2+fabric, Mouse Tweaks:2.31, No Resource Pack Warnings:1.5.0, NoteBlockLib:3.4.0-20260814.211116-1, Ok Zoomer:18.0.0-beta.2, OpenJDK 64-Bit Server VM:25, Pickup Animations:1.0, Pickup Notifications:3.0.1+26.2, Placeholder API:3.1.0-beta.1+26.2, Player Animation Library:1.2.6+mc.26.2, Player Armor Stands:0.10.1-FBR-26.2, Polytone:26.2-6.7.0, Pride Lib:1.7.0+26.2, Punchy:2.8a, Puzzles Lib:26.2.4, Remove Reloading Screen:5.2.8+mc.26.2, Replanting Crops:5.6, Resource Pack Options:26.2.2, ScalableLux:0.3.0-alpha.0.3+26.2, Scribble:2.1.0-beta1, Searchables:1.0.1, Server Translations API:3.1.0+26.2, ServerCore:1.5.19+26.2, Shogi API:26.2.0.5, Shogi:26.2.0.5, Shoulder Surfing Reloaded:5.0.11, Show Me Your Skin!:2.0.3+26.2, Shulker Box Tooltip:5.4.1+26.2, SignFaster:1.0.3, Simple Voice Chat API:2.6.20, Simple Voice Chat:2.6.22+26.2, SmoothGui:2.0.5, Sodium Extra:0.9.4+mc26.2, Sodium:0.9.2+mc26.2, Sound Physics Remastered:1.5.1+26.2, Sounds:2.5.1+edge, SpectreLib:0.22.0+26.2, SpruceUI:11.0.0+26.2, Structurize Fabric 26.2 (Unofficial):1.0.0, TCDCommons API:5.5.6+fabric-26.2, TRansition:1.0.21, TRender:1.0.15, Tapestry Config:1.1.2, Tapestry:1.1.2, Trade Cycling:1.0.21+26.2, Translation Fallbacks:1.2.0+mc.26.1-snapshot-10, Tree Vein Miner:26.x, Universal Bone Meal:26.2.0, Unlimited Stacks:1.0.3, Veinminer:2.12.1, Visible Traders:2.5.1, VisualKeys:0.0.11+26.2, Visuality:0.7.14+26.2, Wall-Jump TXF:26.2-1.3.8-fabric, Waystones:26.2.0.12, WorldEdit:7.4.5+7590-b8dc4c1, WorldEditCUI Protocol (Fabric):4.0.3, Wrench Wrapper (Backend):0.9.1, Wrench Wrapper:0.9.1, Xaero's Minimap:26.5.1, Xaero's World Map:1.46.1, XaeroLib:1.7.7, XaeroPlus:2.36.2, YetAnotherConfigLib:3.9.6+26.2-fabric, Yumi Commons: Collections:2.0.0, Yumi Commons: Core:2.0.0, Yumi Commons: Event:2.0.0, Yumi Minecraft Libraries: Foundation:1.1.1+26.2, Zoomify:2.16.1+26.2, antlr4-runtime:4.13.1, asyncutil:0.1.0, atomicfu-jvm:0.33.0, bus:7.2.0, caffeine:3.2.1, cloth-basic-math:0.6.1, common-image:3.12.0, common-io:3.12.0, common-lang:3.12.0, conditional mixin:0.6.4, configured-core:0.3.2, configured-json:0.3.2, configured-yaml:0.3.2, core:2.12.1, core:3.9.0, dazzleconf-core:1.3.0-M2, dazzleconf-ext-snakeyaml:1.3.0-M2, eddsa:0.3.0, endec:0.1.12, exp4j:0.4.8, fabric-permissions-api:0.7.0, fiber:0.23.0-2, game-sdk:2.3.4, glsl-transformer:3.0.0-pre3, greenlight-api:0.1.0+mc26.2, gson:0.1.7, gson:0.2.1, imageio-core:3.12.0, imageio-metadata:3.12.0, imageio-webp:3.12.0, jankson:0.1.7, jankson:1.2.2, jcpp:1.4.14, jctools-core:4.0.5, json:0.2.1, kaleido-config:0.3.3+1.3.2, kdl4j:1.0.1, kotlin-reflect:2.4.20, kotlin-stdlib-jdk7:2.4.20, kotlin-stdlib-jdk8:2.4.20, kotlin-stdlib:2.4.20, kotlinx-coroutines-core-jvm:1.11.0, kotlinx-coroutines-jdk8:1.11.0, kotlinx-datetime-jvm:0.8.0, kotlinx-io-bytestring-jvm:0.9.1, kotlinx-io-core-jvm:0.9.1, kotlinx-serialization-cbor-jvm:1.11.0, kotlinx-serialization-core-jvm:1.11.0, kotlinx-serialization-json-jvm:1.11.0, mixinconstraints:1.0.9, mochafloats:5.0.0, muscript-all:2.1.0, muscript-json:2.1.0, netty:0.1.6, nexp:1.2.0, org.eclipse.jgit.ssh.apache:7.4.0.202509020913-r, org.eclipse.jgit:7.4.0.202509020913-r, oωo:0.13.1+26.2, pngj:2.1.0, reactive-streams:1.0.4, root project 'Prism':1.1.2, rxjava:3.1.12, services:1.3.3, snakeyaml:2.6, spark:1.10.185, sshd-common:2.16.0, sshd-core:2.16.0, stutterfix:1.0.0, toml4j:0.7.2, toml:3.9.0, uku's Armor HUD:0.12.0+mc26.2, ukulib:2.1.1+26.2, veinminer-common:2.12.1
+[22:09:48] [Render thread/INFO] [FabricEventHandlerManager] #### Checking if feather is loaded: false ####
+[22:09:49] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[22:09:49] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: /Users/charlieichikowitz/Library/Application Support/ModrinthApp/profiles/Ramen%20simple%20mods%201.0.2.2/journeymap/colorpalette.json
+[22:09:49] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: /Users/charlieichikowitz/Library/Application Support/ModrinthApp/profiles/Ramen%20simple%20mods%201.0.2.2/journeymap/data/sp/Worldie _2/colorpalette.json
+[22:09:49] [Render thread/INFO] [JourneymapClient] Mapping started in /Users/charlieichikowitz/Library/Application Support/ModrinthApp/profiles/Ramen%20simple%20mods%201.0.2.2/journeymap/data/sp/Worldie _2/overworld. Memory: 3752MB total, 1725MB free 
+[22:09:49] [Render thread/INFO] [JMChunkCache] JMChunkCache: opened at /Users/charlieichikowitz/Library/Application Support/ModrinthApp/profiles/Ramen%20simple%20mods%201.0.2.2/journeymap/data/sp/Worldie _2/overworld/chunk_cache
+[22:09:49] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Server (was=null, shouldBeRemote=true, isJMServer=true, serverManagedWP=true, isServerManagedWaypointConnection=true, hasSingleplayerServer=true)
+[22:09:49] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[22:09:49] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[22:09:49] [Render thread/INFO] [InternalStateHandler] Server set waypointTeleportOnly: false
+[22:09:49] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointTeleportOnly: false
+[22:09:49] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[22:09:49] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[22:09:49] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[22:09:49] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[22:09:49] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[22:09:49] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[22:09:49] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[22:09:49] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[22:09:49] [Render thread/INFO] [InternalStateHandler] Server set globalWaypointsOnly: false
+[22:09:49] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[22:09:49] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[22:09:49] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[22:09:49] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[22:09:49] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[22:09:49] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[22:09:49] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[22:09:49] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[22:09:49] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[22:09:49] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[22:11:24] [Render thread/INFO] [ChatLog] JourneyMap: Press [']
+[22:37:28] [Render thread/INFO] [ServerWaypointBackend] ServerWaypointBackend.save 'Azurmimed' (guid=5c742da9-e873-494c-a9f9-155185542e67, scope=SELF)
+[22:37:28] [Render thread/INFO] [ServerWaypointBackend] ServerWaypointBackend.save 'Azurmimed' (guid=5c742da9-e873-494c-a9f9-155185542e67, scope=SELF)
+[22:40:44] [Render thread/INFO] [JourneymapClient] Mapping halted in /Users/charlieichikowitz/Library/Application Support/ModrinthApp/profiles/Ramen%20simple%20mods%201.0.2.2/journeymap/data/mp/offline/minecraft:overworld
+[22:40:44] [Render thread/INFO] [WaypointHandler] WaypointBackend selected: Client (was=Server, shouldBeRemote=false, isJMServer=false, serverManagedWP=false, isServerManagedWaypointConnection=false, hasSingleplayerServer=false)

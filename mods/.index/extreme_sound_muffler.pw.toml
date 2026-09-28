@@ -1,0 +1,21 @@
+filename = 'ExtremeSoundMuffler-4.03_Fabric-26.2.jar'
+name = 'Extreme sound muffler'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '4.03-26.2'
+
+[download]
+hash = '2b245ea4ae25b0e86ba4a7f985671552dd57cda969063666bf3e546280ba9d66d5cab4cbb99de506674e9ccd19a238c3ba3b174d1acbf6990ea344faeb81fc65'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/5IIKsxiL/versions/SMKsHLKa/ExtremeSoundMuffler-4.03_Fabric-26.2.jar'
+
+[update.modrinth]
+mod-id = '5IIKsxiL'
+version = 'SMKsHLKa'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

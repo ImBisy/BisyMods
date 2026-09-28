@@ -1,0 +1,13 @@
+name = "NebsConfigLib"
+filename = "NebsConfigLib-1.0.8+26.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Dhi35Xvg/versions/L5MaB9DK/NebsConfigLib-1.0.8%2B26.2.jar"
+hash-format = "sha512"
+hash = "882437c83b9fbe81dfb176723277b090b13a85ab28ece92373b3fcc0b6f8bdfdad61dd3c7c017ccf9fd711fd6f923d89ab27afe8691173510d6949a402cf5a53"
+
+[update]
+[update.modrinth]
+mod-id = "Dhi35Xvg"
+version = "L5MaB9DK"

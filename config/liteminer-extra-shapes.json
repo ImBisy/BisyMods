@@ -1,0 +1,8 @@
+{
+  "flatRadius": 10,
+  "flatAllBlocks": false,
+  "tunnelWidth": 3,
+  "tunnelHeight": 3,
+  "tunnelLength": 32,
+  "protectFloor": false
+}

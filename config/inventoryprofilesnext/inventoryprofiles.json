@@ -1,0 +1,30 @@
+{
+    "Features": {
+        "highlight_foused_items": {
+            "value": false
+        }
+    },
+    "ModSettings": {
+        "first_run": false,
+        "highlight_foused_items": {
+            "value": false
+        }
+    },
+    "GuiSettings": {
+        "enable_profiles_ui": {
+            "value": false
+        }
+    },
+    "AutoRefillSettings": {
+        "refill_before_tool_break": {
+            "value": false
+        }
+    },
+    "Hotkeys": {
+        "sort_inventory": {
+            "main": {
+                "keys": "BUTTON_3"
+            }
+        }
+    }
+}

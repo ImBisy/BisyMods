@@ -1,0 +1,10 @@
+# Written by BlockUI's config store. Edit it while the game is closed - the file is not
+# watched, and the running game overwrites it whenever a setting changes in-game.
+
+[gameplay]
+	# minecolonies.config.generatesupplyloot.comment [Default: true]
+	generatesupplyloot = true
+
+[requestsystem]
+	# minecolonies.config.enabledebuglogging.comment [Default: false]
+	enabledebuglogging = false

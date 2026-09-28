@@ -1,0 +1,13 @@
+name = "Bisy"
+author = "ImBisy"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "9ab39d934c869800494eff69ce642da7f867b9dc2e61fc58987f47756b5be68e"
+
+[versions]
+fabric = "0.19.5"
+minecraft = "26.2"

@@ -1,0 +1,13 @@
+name = "KeyMap Viewer"
+filename = "keymapviewer-1.0.2-mc26.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/JLR7DKCX/versions/bkZh6xMv/keymapviewer-1.0.2-mc26.2.jar"
+hash-format = "sha512"
+hash = "feee2242108887c58220058e4e7da8fe7b12dc2505dfacda6eccc42673856b5f472b7631ceedceb8e9ab3976d2df5dea7d2beca83450472b74dec239b983f323"
+
+[update]
+[update.modrinth]
+mod-id = "JLR7DKCX"
+version = "bkZh6xMv"

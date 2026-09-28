@@ -1,0 +1,17 @@
+{
+  "Hotkeys": {
+    "Open Material List": "PERIOD",
+    "Reload Material List": "R",
+    "Open Config GUI": "COMMA",
+    "Open Party GUI": "",
+    "Open Chests GUI": "",
+    "Toggle Chest Highlight": "",
+    "Toggle Targeted-Items HUD": "",
+    "HUD Scroll Forward": "LEFT_CONTROL,J",
+    "HUD Scroll Back": "LEFT_ALT,J"
+  },
+  "Options": {
+    "showItemHoverTooltip": true,
+    "countPlayerInventory": true
+  }
+}

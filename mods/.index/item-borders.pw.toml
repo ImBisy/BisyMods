@@ -1,0 +1,29 @@
+filename = 'ItemBorders-26.2-fabric-1.3.2.jar'
+name = 'Item Borders'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.2'
+
+[download]
+hash = '4b2102c0a8768fc5efc36f5a87f4048ebe5041bb3000f30614436e225dfb26fb1a2451363ec2d4e9e72751e270b5b83ebcfee8f78a7c479bbf0a7ffd46decf6d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/b1fMg6sH/versions/aSAkzGkZ/ItemBorders-26.2-fabric-1.3.2.jar'
+
+[update.modrinth]
+mod-id = 'b1fMg6sH'
+version = 'aSAkzGkZ'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1OE8wbN0'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '5faXoLqX'
+type = 'REQUIRED'

@@ -1,0 +1,6 @@
+[
+  {"version":3},
+  {"recipe":"minecolonies:blockminecoloniesrack","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"minecraft:chest"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"travelersbackpack:standard_no_tanks_sleeping_bag","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
+]

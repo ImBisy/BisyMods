@@ -1,0 +1,11 @@
+{
+	"disableMod": false,
+	"eatInstantly": true,
+	"modifyMaxFoodStackCount": false,
+	"maxFoodStackCount": 1,
+	"cantSprint": false,
+	"hideHungerBar": true,
+	"moveArmorBarToHungerBar": true,
+	"replaceAllHungerWithPoison": true,
+	"replaceHungerFromFoodWithPoison": true
+}

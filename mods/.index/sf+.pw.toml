@@ -1,0 +1,18 @@
+filename = 'Signs Faster (v1.0.3) - 26.2 (Fabric).jar'
+name = 'Signs Faster'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.3'
+
+[download]
+hash = 'b975039f58ffe91243de72386446532f48e6b9bb44100ba766d2a81f83a4779e90031ca0af4a05f43d111fda11307a95d0893000b4db08169ee632764629f16e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NqwetDY4/versions/UsPHgp6z/Signs Faster %28v1.0.3%29 - 26.2 %28Fabric%29.jar'
+
+[update.modrinth]
+mod-id = 'NqwetDY4'
+version = 'UsPHgp6z'

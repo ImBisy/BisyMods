@@ -1,0 +1,25 @@
+filename = 'litematica-companion-2.0.0.jar'
+name = 'Litematica Companion'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0.0'
+
+[download]
+hash = 'ac669e71d25b59ca6d436e8a8aa65660cca834f6959b1e2f661b84fc55ab805d31963f320a00d3d2da66d5dea41421138125e030dd702ca61b03f8704486b86b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QbvfedEs/versions/fWjWDvct/litematica-companion-2.0.0.jar'
+
+[update.modrinth]
+mod-id = 'QbvfedEs'
+version = 'fWjWDvct'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'GcWjdA9I'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'bEpr0Arc'
+type = 'REQUIRED'

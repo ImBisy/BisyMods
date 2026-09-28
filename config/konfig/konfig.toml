@@ -1,0 +1,13 @@
+# Konfig internal debug settings.
+# Verbose diagnostics for config lifecycle and screen creation.
+[debug]
+	# Controls the amount of Konfig diagnostic detail shown in generated debug surfaces.
+	mode = "standard"
+	# Sample item rules for exercising Konfig's structured entry editor.
+	sample_rules = []
+	# Enable verbose Konfig internal logs
+	enabled = false
+
+# Konfig internal metadata. Safe to ignore.
+[__konfig]
+	version = 0

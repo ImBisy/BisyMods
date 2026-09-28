@@ -1,0 +1,13 @@
+name = "Metallum"
+filename = "metallum-0.0.23.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/w79ASAJD/versions/zY9eWjnE/metallum-0.0.23.jar"
+hash-format = "sha512"
+hash = "a13bd35bb8e93d9945d0a1fbcbbc6f802c17d382c5d6bec2f686e18db8b6677422d132775749b04e32e8145b492d5acc74308d3e8384950ec344c85cb88a79a2"
+
+[update]
+[update.modrinth]
+mod-id = "w79ASAJD"
+version = "zY9eWjnE"

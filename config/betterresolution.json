@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "upscaleMode": "SHARP",
+  "resolutionPreset": "ULTRA_QUALITY",
+  "manualScale": false,
+  "scalePercent": 70
+}

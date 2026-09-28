@@ -1,0 +1,11 @@
+{
+  "highlightEnabled": true,
+  "blocklist": [],
+  "radarEnabled": false,
+  "radarTracked": [],
+  "radarRange": 64,
+  "radarNearRange": 3,
+  "radarFarOnScreenRange": 16,
+  "radarScale": 1.5,
+  "hasShownOnboarding": false
+}

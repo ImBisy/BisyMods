@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "status": "installed",
+  "sourceId": "maven-1374",
+  "sourceUrl": "https://ldtteam.jfrog.io/artifactory/modding/com/ldtteam/minecolonies/1.1.1374-1.21.1-snapshot/minecolonies-1.1.1374-1.21.1-snapshot.jar",
+  "jarSha256": "9ea739a273cb20d02a3a0ce05f6e3d315aa7e9ddd17a23f0e70ee5f00c3e4cfa",
+  "manifestSha256": "4f5341dd9ad61b3707797fba3a9b0c433d98879f7cf25712a54c973f0c29a49e",
+  "complete": true,
+  "installedAt": "2026-09-15T18:32:30.928781Z"
+}
