@@ -1,28 +1,3 @@
-# Ignore raw mod jars (managed by packwiz .pw.toml files)
-mods/*.jar
-mods/*.jar.disabled
 
-# Ignore personal client configuration & runtime data
-options.txt
-optionsof.txt
-servers.dat
-servers.dat_old
-usercache.json
-usernamecache.json
-realms_persistence.json
-
-# Ignore map data, schematics, and cached assets
-xaero/
-schematics/
-minecolonies/fetched-assets/
-mods/.index/
-
-# Ignore game runtime folders
-saves/
-logs/
-crash-reports/
-screenshots/
-resourcepacks/
-shaderpacks/
-.fabric/
-.mixin.out/
+# Ignore backup zips
+backups/
