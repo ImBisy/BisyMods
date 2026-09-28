@@ -7,8 +7,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-and-publish:
+  build-and-release:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -26,25 +29,14 @@ jobs:
         run: |
           ~/go/bin/packwiz modrinth export -o BisyMods.mrpack
 
-      - name: Upload artifact to GitHub Actions
-        uses: actions/upload-artifact@v4
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
         with:
-          name: BisyMods-mrpack
-          path: BisyMods.mrpack
-
-      - name: Publish to Modrinth
-        uses: cloudnode-pro/modrinth-publish@v2
-        if: env.MODRINTH_TOKEN != ''
+          tag_name: release-build-${{ github.run_number }}
+          name: BisyMods Build #${{ github.run_number }}
+          draft: false
+          prerelease: false
+          files: BisyMods.mrpack
+          generate_release_notes: true
         env:
-          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
-        with:
-          token: ${{ secrets.MODRINTH_TOKEN }}
-          # Replace with your Modrinth Project ID (Found in the sidebar of your Modrinth project page under Technical Information)
-          project: "mrp_ZNw6b2xTdQhgAqOJm75lZUPPLFd44MQ1wHLHO3C06ogs9TkHeB47dDTbumoN"
-          game-versions: |
-            26.2
-          loaders: |
-            fabric
-          files: |
-            BisyMods.mrpack
-          primary-file: BisyMods.mrpack
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
