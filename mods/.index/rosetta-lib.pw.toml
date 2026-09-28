@@ -1,0 +1,21 @@
+filename = 'rosetta-0.1.1+26.2-fabric.jar'
+name = 'Rosetta'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'v0.1.1-fabric-26.2'
+
+[download]
+hash = 'bf5e1e449101623093c6988767e39738f7b0d39fa73fc8f9e1685925cbb62494656028a317533caa5b85cf815a5e4d4588af93334f73270382022ca1c28d8c79'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Qn6GGcLH/versions/BUXtUwWl/rosetta-0.1.1%2B26.2-fabric.jar'
+
+[update.modrinth]
+mod-id = 'Qn6GGcLH'
+version = 'BUXtUwWl'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

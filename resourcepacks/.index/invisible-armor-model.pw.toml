@@ -1,0 +1,18 @@
+filename = 'Invisible Armor Model - 88.0.zip'
+name = 'Invisible Armor Model'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '26.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '88.0'
+
+[download]
+hash = '438d023b0d028e163a6ec922bf692215f2406d3974bb8f512fec0b2cd487428e80c037961c91be575cc7fd169b2e99cdd3e97c502beb5b9426016888afe6ddd6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/yd1iJerO/versions/5n8DKSoz/Invisible Armor Model - 88.0.zip'
+
+[update.modrinth]
+mod-id = 'yd1iJerO'
+version = '5n8DKSoz'

@@ -1,0 +1,13 @@
+{
+    gameplay: {
+        itemTransforms: "enable",
+        objectPhysics: "disable",
+        screenShake: "disable",
+        throwingAnimation: "default"
+    },
+    compatibility: {
+        refinedBuckets: "enable",
+        shubaTotem: "disable",
+        freshEndCrystal: "disable"
+    }
+}

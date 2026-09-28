@@ -1,0 +1,13 @@
+name = "Immersive Overlays - Terralith, Incendium, Nullscape"
+filename = "ImmersiveOverlays-Terralith&Incendium&Nullscape.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bh3GxMdS/versions/dxYXFGG7/ImmersiveOverlays-Terralith%26Incendium%26Nullscape.zip"
+hash-format = "sha512"
+hash = "d233a87b774b4a133dbd4ca5521927e6c3a53bd674c38db7941577971eceb72922a6c95a90854ce437c61d2903cdaa419449cc579629a5d70de2cc1e008dfcf6"
+
+[update]
+[update.modrinth]
+mod-id = "bh3GxMdS"
+version = "dxYXFGG7"

@@ -1,0 +1,27 @@
+filename = 'effortless-crafting-fabric-26.2.X-v1.4.4.jar'
+name = 'Effortless Crafting'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'fabric-26.2.X-v1.4.4'
+
+[download]
+hash = '0cc434aaeacf80fcfd759e7a23c89f91c5d7d44b9b1a754271c243115b60b453d427b687e0f64ee6e386ad3cf0ec5d9dc41c18db380e32db823c41b0e12d690a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/iMFvPhVJ/versions/i8dzs33H/effortless-crafting-fabric-26.2.X-v1.4.4.jar'
+
+[update.modrinth]
+mod-id = 'iMFvPhVJ'
+version = 'i8dzs33H'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'
+version = 'QEDySGIN'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'OPTIONAL'
+version = 'Nv3xnWXd'

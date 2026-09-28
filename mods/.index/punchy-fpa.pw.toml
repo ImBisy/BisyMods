@@ -1,0 +1,18 @@
+filename = 'punchy-2.8a-fabric-26.2.jar'
+name = 'Punchy!'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.8a'
+
+[download]
+hash = 'ecb63870031155cfd9ef39d9e92a09a9dafeb9a8fef72bfe2e67070102f4da66694bf1272cf71f39c0897f7d10f2049a1fff436ef58e52ef804ff147e0bc014f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8aoMKplv/versions/QShDZDjS/punchy-2.8a-fabric-26.2.jar'
+
+[update.modrinth]
+mod-id = '8aoMKplv'
+version = 'QShDZDjS'

@@ -1,0 +1,18 @@
+filename = 'fullbright-26.2-1.0.0+26.2.jar'
+name = 'Full Bright +'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.0.0+26.2'
+
+[download]
+hash = 'cf62d88a326598cf3cf2e2caf5f67888b88bcf67e393c311cc472b922a1de4ca72acd711948436723370c78d2b9b637867cce0be8be09ca37e52d66ab0beb191'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xf0fHoGZ/versions/Pj8QAw17/fullbright-26.2-1.0.0%2B26.2.jar'
+
+[update.modrinth]
+mod-id = 'xf0fHoGZ'
+version = 'Pj8QAw17'

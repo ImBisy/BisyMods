@@ -1,0 +1,69 @@
+{
+    Blocks: {
+        roundedLogTops: true,
+        noteBlockPitches: true,
+        rustedRails: true,
+        longRailsFix: true,
+        leverState: true,
+        fixedWalls: true,
+        consistentHangingSigns: true,
+        improvedEnderChest: true,
+        animatedObserver: true,
+        variatedBookshelves: true,
+        variatedBricks: true,
+        variatedRedMushroomBlock: true
+    },
+    Vegetation: {
+        coloredMelonAndPumpkinStems: true,
+        floweringPotatoCrops: true,
+        floweringBeetrootCrops: true,
+        tallWheatCrops: true,
+        smoothFireflyBushAnimation: true,
+        variatedPumpkins: true,
+        variatedCactus: true,
+        variatedMushrooms: true,
+        variatedGrass: true,
+        variatedBushes: true
+    },
+    Items: {
+        holdingLanterns: true,
+        durabilityStages: true,
+        waxedCopperBorders: true,
+        visualPotionVariants: true,
+        phantomElytra: true,
+        uniqueHelmets: true,
+        squareBoats: true,
+        fullFlowers: true,
+        consistentRepeaterAndComparator: true,
+        classicRedstoneTorch: true,
+        improvedNetheriteTools: true,
+        improvedSlimeBallAndMagmaCream: true,
+        improvedHoneycomb: true,
+        improvedStick: true,
+        beds2d: true,
+        dripleafs2d: true,
+        sporeBlossom2d: true,
+        netherSprouts2d: true,
+        animatedFish: true,
+        animatedBuckets: true,
+        animatedGoldenItems: true,
+        animatedCampfires: true,
+        animatedFireflyBush: true
+    },
+    HUD: {
+        icons: "on",
+        hotbar: true,
+        hearts: true,
+        foodBar: true,
+        armourBar: true,
+        airBar: true,
+        crosshair: true,
+        effectBackground: true,
+        roundedTabsAndFields: true
+    },
+    Optifine: {
+        pigSwampVariant: true,
+        ironGolemFlowerVariants: true,
+        turtleShellVariant: true
+    }
+}

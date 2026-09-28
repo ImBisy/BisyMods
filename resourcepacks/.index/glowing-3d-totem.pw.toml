@@ -1,0 +1,18 @@
+filename = 'Glowing 3D Totem.zip'
+name = 'Glowing 3D Totem'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21.5', '1.21.6', '1.21.7', '1.21.8', '1.21.9', '1.21.10', '1.21.11', '26.1', '26.1.1', '26.1.2', '26.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.2'
+
+[download]
+hash = 'ee99f6fffe31fe93dec65568d76f09de002480d5eabd4b15cfa999d0b68ddd3622e72e8776300599bf2e209a2b3c321b35173057947fcd9292b175e43113c3a3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LGnScTVE/versions/nXRYkgY5/Glowing 3D Totem.zip'
+
+[update.modrinth]
+mod-id = 'LGnScTVE'
+version = 'nXRYkgY5'

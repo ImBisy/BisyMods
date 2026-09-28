@@ -1,0 +1,18 @@
+filename = 'walljump-26.2-1.3.8-fabric.jar'
+name = 'Wall-Jump TXF'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '26.2-1.3.8-fabric'
+
+[download]
+hash = '102572c9f34b6ccdd4405dc28c2db235ff4d9e4d32082bafbd79f06b06afbcee02a2b5732066a23ff8ffbe7e788c26a950e1ab964da0903976c4632e104d04de'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/oUoetxfR/versions/USvdhBa1/walljump-26.2-1.3.8-fabric.jar'
+
+[update.modrinth]
+mod-id = 'oUoetxfR'
+version = 'USvdhBa1'

@@ -39181,6 +39181,11 @@ file = "mods/minecolonies-26.2-0.0.67.jar"
 hash = "cc41c27fdb68c38f47cbb5e93e522777490331bd2b3fe6a87b188010323723d0"
 
 [[files]]
+file = "mods/minecolonies-unofficial-fabric.pw.toml"
+hash = "47b6f23a30f5383593028525919d6cc1b9c15009b379a7d782ee24d295b8955c"
+metafile = true
+
+[[files]]
 file = "mods/modernfix-5.27.19-build.2.jar"
 hash = "1bb69de32ca83f27f945e238ae4781795e42d6b5576ca5e6ee18b147fb02a2fd"
 

@@ -1,3 +1,31 @@
+# Secrets and AutoModpack
+automodpack/.private/
+automodpack/
 
-# Ignore backup zips
-backups/
+# Logs, Crash Reports, Caches
+*.log
+logs/
+crash-reports/
+cache/
+fieldguide_cache/
+debug/
+downloads/
+.DS_Store
+*.json.bak
+
+# Map & World Data
+saves/
+journeymap/
+XaeroWaypoints*/
+Distant_Horizons_server_data/
+.bobby/
+blueprints/
+data/
+minecolonies/
+
+# Temp Files
+TrashSlotSaveState.json
+cherishedworlds-favorites.dat
+command_history.txt
+debug-profile.json
+dungeons_iso_firsttime.json

@@ -1,0 +1,21 @@
+filename = 'armorstands-fabric-3.0.4+26.2.jar'
+name = 'Armor Stands'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '3.0.4+26.2-fabric'
+
+[download]
+hash = '1c3569c37cfc7fd8a60475372cbbeb6c7e932e29999f11c23cfed95b5aa22d1fdafc4fafe2eca16428dee35b43fcc2f3c9c1d8f4885f390fd0fe63f0463adecb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/FlC9CXUY/versions/lV6sGGrC/armorstands-fabric-3.0.4%2B26.2.jar'
+
+[update.modrinth]
+mod-id = 'FlC9CXUY'
+version = 'lV6sGGrC'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

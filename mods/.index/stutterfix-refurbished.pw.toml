@@ -1,0 +1,18 @@
+filename = 'stutterfix-1.0.0-26.2.jar'
+name = 'StutterFix - Refurbished!'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = '1394e1ecece84fbef7969b1b53806f4f0a1cd6e6a71be9bc67575f41ff82d5e7b9927c94f7063871886bc1fb8a27f05945751ee7caaadbbeb15e92523ec57387'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rGNbA0lR/versions/xlGYIcTn/stutterfix-1.0.0-26.2.jar'
+
+[update.modrinth]
+mod-id = 'rGNbA0lR'
+version = 'xlGYIcTn'

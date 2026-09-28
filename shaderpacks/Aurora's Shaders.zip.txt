@@ -1,0 +1,4 @@
+#Fri Sep 18 18:45:09 BST 2026
+REALTIME_SHADOWS=false
+SHADER_STYLE=4
+shadowDistance=0.0

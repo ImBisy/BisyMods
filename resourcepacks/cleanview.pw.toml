@@ -1,0 +1,13 @@
+name = "CleanView"
+filename = "CleanView26.2.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mynxVooj/versions/OheSKSq7/CleanView26.2.zip"
+hash-format = "sha512"
+hash = "9b70eb3b62df7b39ec779c92e7e8b228493647b02b564736d5bc81b03dd715195dab84dc45f45d6c10cc9def4d538d59f220cbf51934b60fe85f6f4bd6f29555"
+
+[update]
+[update.modrinth]
+mod-id = "mynxVooj"
+version = "OheSKSq7"

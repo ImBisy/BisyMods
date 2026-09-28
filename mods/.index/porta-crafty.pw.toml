@@ -1,0 +1,25 @@
+filename = 'craftingslots-fabric-26.2-26.2.0.1.jar'
+name = 'Porta Crafty'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '26.2.0.1+fabric-26.2'
+
+[download]
+hash = '850d58b59ebab1bb5c8ae643cbf90cc6d170e801dac8e31f03534e2fbc9542cb994065fb2416a5e858a092f21788e54a93aedcfe329380c81861c3704beebd12'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/OZlgV1Dc/versions/eyZb8qfS/craftingslots-fabric-26.2-26.2.0.1.jar'
+
+[update.modrinth]
+mod-id = 'OZlgV1Dc'
+version = 'eyZb8qfS'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'MBAkmtvl'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

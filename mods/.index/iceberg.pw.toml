@@ -1,0 +1,21 @@
+filename = 'Iceberg-26.2-fabric-1.4.2.1.jar'
+name = 'Iceberg'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.4.2.1'
+
+[download]
+hash = '72f4ea2c1e283dba332ebb79395f5a0af2e42d87eba66ea04ff568c2581de2d5321e144ee6f10a222a361f62e6a0acc289ffc380651f42cb5544afb3787fe904'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/5faXoLqX/versions/V5RnWL87/Iceberg-26.2-fabric-1.4.2.1.jar'
+
+[update.modrinth]
+mod-id = '5faXoLqX'
+version = 'V5RnWL87'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
