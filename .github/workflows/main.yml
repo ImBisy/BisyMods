@@ -1,0 +1,50 @@
+name: Export & Publish Modpack
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Export Modrinth Modpack (.mrpack)
+        run: |
+          ~/go/bin/packwiz modrinth export -o BisyMods.mrpack
+
+      - name: Upload artifact to GitHub Actions
+        uses: actions/upload-artifact@v4
+        with:
+          name: BisyMods-mrpack
+          path: BisyMods.mrpack
+
+      - name: Publish to Modrinth
+        uses: cloudnode-pro/modrinth-publish@v2
+        if: env.MODRINTH_TOKEN != ''
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+        with:
+          token: ${{ secrets.MODRINTH_TOKEN }}
+          # Replace with your Modrinth Project ID (Found in the sidebar of your Modrinth project page under Technical Information)
+          project: "mrp_ZNw6b2xTdQhgAqOJm75lZUPPLFd44MQ1wHLHO3C06ogs9TkHeB47dDTbumoN"
+          game-versions: |
+            26.2
+          loaders: |
+            fabric
+          files: |
+            BisyMods.mrpack
+          primary-file: BisyMods.mrpack
