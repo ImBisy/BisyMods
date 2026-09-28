@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecolonies:item/spawn_egg",
-    "layer1": "minecolonies:item/spawn_egg_overlay"
-  }
-}
