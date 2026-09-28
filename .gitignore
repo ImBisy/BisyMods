@@ -1,6 +1,6 @@
-# Secrets and AutoModpack
-automodpack/.private/
+# Secrets and AutoModpack cache
 automodpack/
+!automodpack/automodpack-client.json
 
 # Logs, Crash Reports, Caches
 *.log
