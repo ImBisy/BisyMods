@@ -1,5 +1,0 @@
-/time set day
-/gamemode survival
-/origin set @s origins-1-21-1:feline
-/origin reset
-/origin reset @s
