@@ -2,7 +2,7 @@
 automodpack/
 !automodpack/automodpack-client.json
 
-# Logs, Crash Reports, Caches
+# Logs, Crash Reports, Caches, & Temp Jars
 *.log
 logs/
 crash-reports/
@@ -12,16 +12,21 @@ debug/
 downloads/
 .DS_Store
 *.json.bak
+.fabric/
 
-# Map & World Data
+# Map & World Data (Xaero, Journeymap, Bobby, etc.)
 saves/
 journeymap/
+xaero/
 XaeroWaypoints*/
 Distant_Horizons_server_data/
 .bobby/
 blueprints/
 data/
 minecolonies/
+
+# Personal Config Overrides & Schematics
+config/litematica/
 
 # Temp Files
 TrashSlotSaveState.json

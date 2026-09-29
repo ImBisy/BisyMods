@@ -7,6 +7,8 @@
 	harvest_time_per_block_modifier_enabled = false
 	# Enables hunger exhaustion per block mined by vein mining.
 	food_exhaustion_enabled = true
+	# Allows vein mining when the player's food level is zero.
+	allow_vein_mining_at_zero_hunger = true
 	# Multiplier used when scaling mining time for larger vein mining selections.
 	harvest_time_per_block_modifier = 2.0
 

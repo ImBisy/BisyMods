@@ -1,0 +1,16 @@
+{
+  "presetServers": [
+    {
+      "name": "BisyColony",
+      "ip": "bisymc.minecraft.how",
+      "resourcePackPolicy": "PROMPT"
+    },
+    {
+      "name": "BisyMC",
+      "ip": "vanilla.bisymc.minecraft.how",
+      "resourcePackPolicy": "PROMPT"
+    }
+  ],
+  "remoteUrl": "",
+  "enableRemote": false
+}

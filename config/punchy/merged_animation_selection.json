@@ -11,7 +11,8 @@
         "mining": "pack:file/§5untitled §6punchies §fv1.1.zip",
         "falling": "pack:file/§5untitled §6punchies §fv1.1.zip",
         "useitem": "pack:file/§5untitled §6punchies §fv1.1.zip",
-        "interaction": "pack:file/§5untitled §6punchies §fv1.1.zip"
+        "interaction": "pack:file/§5untitled §6punchies §fv1.1.zip",
+        "triggerable": "pack:punchy:punchy"
       }
     },
     {
@@ -38,7 +39,8 @@
         "useitem": "pack:file/§5untitled §6punchies §fv1.1.zip",
         "interaction": "pack:file/§5untitled §6punchies §fv1.1.zip",
         "attack": "pack:file/§5untitled §6punchies §fv1.1.zip",
-        "spear_charge": "pack:file/§5untitled §6punchies §fv1.1.zip"
+        "spear_charge": "pack:file/§5untitled §6punchies §fv1.1.zip",
+        "mining": "pack:punchy:punchy"
       }
     },
     {
@@ -49,7 +51,8 @@
         "hand_out": "pack:file/§5untitled §6punchies §fv1.1.zip",
         "useitem": "pack:file/§5untitled §6punchies §fv1.1.zip",
         "interaction": "pack:file/§5untitled §6punchies §fv1.1.zip",
-        "use_bow": "pack:file/hyperpunchy-v2.5+.zip"
+        "use_bow": "pack:file/hyperpunchy-v2.5+.zip",
+        "use_bow_shot": "pack:punchy:punchy"
       }
     },
     {
@@ -84,7 +87,8 @@
         "useitem": "pack:file/hyperpunchy-v2.5+.zip",
         "mining": "pack:file/hyperpunchy-v2.5+.zip",
         "interaction": "pack:file/hyperpunchy-v2.5+.zip",
-        "inspect": "pack:file/hyperpunchy-v2.5+.zip"
+        "inspect": "pack:file/hyperpunchy-v2.5+.zip",
+        "attack": "pack:punchy:punchy"
       }
     },
     {
@@ -144,7 +148,8 @@
       "definition": "FISHING_ROD",
       "animations": {
         "useitem": "pack:file/hyperpunchy-v2.5+.zip",
-        "attack": "pack:file/hyperpunchy-v2.5+.zip"
+        "attack": "pack:file/hyperpunchy-v2.5+.zip",
+        "fishingrod": "pack:punchy:punchy"
       }
     },
     {
@@ -152,6 +157,14 @@
       "definition": "FLINT",
       "animations": {
         "useitem": "pack:file/hyperpunchy-v2.5+.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "SHIELD",
+      "animations": {
+        "use_shield": "pack:punchy:punchy",
+        "attack": "pack:punchy:punchy"
       }
     }
   ]
